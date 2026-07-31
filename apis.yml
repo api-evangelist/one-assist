@@ -1,8 +1,19 @@
 aid: one-assist
 name: One Assist
-description: One Assist is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  OneAssist is an Indian consumer protection and services company that provides
+  device and appliance protection, extended warranty, and financial-fraud
+  assistance to retail customers. Its offerings span gadget protection for
+  mobile phones, laptops, wearables, and tablets (accidental damage and extended
+  warranty coverage), home appliance repair and maintenance for air
+  conditioners, televisions, washing machines, refrigerators, water purifiers,
+  and geysers, wallet and card fraud protection, credit-card bill-payment
+  assistance, and furniture, motor, and jewelry insurance plans. The company
+  reports serving over 1.8 crore active customers across 19,000+ pincodes and
+  resolving more than 25 lakh issues. OneAssist is backed by Lightspeed Venture
+  Partners. As of this profile, OneAssist publishes no public developer API,
+  developer portal, or API documentation; it operates a consumer-facing web and
+  mobile experience only.
 url: https://raw.githubusercontent.com/api-evangelist/one-assist/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +21,47 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Consumer Protection
+- Extended Warranty
+- Device Protection
+- Fintech
+- India
+image: https://www.oneassist.in/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/one-assist-domain-security.yml
+- type: Website
+  url: https://www.oneassist.in
+- type: PrivacyPolicy
+  url: https://www.oneassist.in/privacypolicy/
+- type: Support
+  url: https://www.oneassist.in/faq/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
